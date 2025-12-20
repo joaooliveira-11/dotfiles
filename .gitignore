@@ -1,0 +1,12 @@
+* 
+
+# repository
+!README.md
+!.gitignore
+
+# personal
+!.gitconfig
+
+# configurations
+!.zshrc
+!.config/
