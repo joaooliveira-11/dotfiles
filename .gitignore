@@ -1,4 +1,4 @@
-* 
+*
 
 # repository
 !README.md
@@ -10,3 +10,4 @@
 # configurations
 !.zshrc
 !.config/
+!.config/**
