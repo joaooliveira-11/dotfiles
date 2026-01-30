@@ -8,6 +8,7 @@ My personal dotfiles for macOS, managed with [GNU Stow](https://www.gnu.org/soft
 |------|-------------|
 | [Aerospace](#-aerospace) | Tiling window manager for macOS |
 | [Tmux](#-tmux) | Terminal multiplexer |
+| [Starship](#-starship) | Cross-shell prompt |
 | [Ghostty](#-ghostty) | GPU-accelerated terminal emulator |
 | [Sketchybar](#-sketchybar) | Custom macOS menu bar |
 | [Borders](#-borders) | Window border highlighting |
@@ -24,12 +25,33 @@ My personal dotfiles for macOS, managed with [GNU Stow](https://www.gnu.org/soft
 
 # Install GNU Stow
 brew install stow
+```
 
-# Install the tools
+### Core Tools
+
+```bash
+# Window management & UI
 brew install --cask aerospace ghostty
 brew install tmux sketchybar borders
 
-`TBD` More to add soon
+# Shell prompt
+brew install starship
+
+# Shell enhancements
+brew install zsh-autosuggestions zsh-syntax-highlighting
+
+# Modern CLI replacements
+brew install eza        # Better ls
+brew install bat        # Better cat
+brew install fd         # Better find
+brew install fzf        # Fuzzy finder
+brew install zoxide     # Smarter cd
+```
+
+### Optional Tools
+
+```bash
+brew install neovim     # Terminal editor (when ready)
 ```
 
 ### Setup
